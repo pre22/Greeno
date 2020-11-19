@@ -6,8 +6,5 @@ class HomePageView(TemplateView):
 class AboutPageView(TemplateView):
     template_name = 'pages/about.html'
 
-class GalleryPageView(TemplateView):
-    template_name = 'pages/gallery.html'
-
 class ContactPageView(TemplateView):
     template_name = 'pages/contact.html'
